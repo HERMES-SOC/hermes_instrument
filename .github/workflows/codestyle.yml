@@ -1,5 +1,5 @@
 # This workflow will install Python dependencies, run tests, run linting, and test building docs
-name: Codestyle with Black
+name: Codestyle and Linting
 
 on:
   push:
@@ -32,4 +32,7 @@ jobs:
     - name: Lint with Black
       run: |
         black --check --diff hermes_instrument
+    - name: flake8
+      run: |
+        flake8 --count hermes_instrument
 
