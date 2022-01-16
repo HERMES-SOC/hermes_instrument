@@ -1,13 +1,41 @@
-A Python package to process the HERMES instrument.
---------------------------------------------------
+========
+Overview
+========
+
+.. start-badges
+
+.. list-table::
+    :stub-columns: 1
+
+    * - docs
+      - |docs|
+    * - build status
+      - |build| |black|
+    * - package
+      - |version| |downloads| |wheel|
+
+.. |docs| image:: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/docs.yml/badge.svg
+    :target: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/docs.yml
+    :alt: Documentation Build Status
+
+.. |testing| image:: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/testing.yml/badge.svg
+    :target: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/testing.yml
+    :alt: Build Status
+
+.. |codestyle| image:: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/codestyle.yml/badge.svg
+    :target: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/codestyle.yml
+    :alt: Codestyle and linting using flake8
+
+.. end-badges
+
 
 License
 -------
 
 This project is Copyright (c) Jane Doe and licensed under
-the terms of the BSD 3-Clause license. This package is based upon
+the terms of the BSD 3-Clause "New" or "Revised" License license. This package is based upon
 the `Openastronomy packaging guide <https://github.com/OpenAstronomy/packaging-guide>`_
-which is licensed under the BSD 3-clause licence. See the licenses folder for
+which is licensed under the BSD 3-clause licence. See the LICENSE file for
 more information.
 
 
