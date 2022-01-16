@@ -10,9 +10,7 @@ Overview
     * - docs
       - |docs|
     * - build status
-      - |build| |black|
-    * - package
-      - |version| |downloads| |wheel|
+      - |testing| |codestyle|
 
 .. |docs| image:: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/docs.yml/badge.svg
     :target: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/docs.yml
