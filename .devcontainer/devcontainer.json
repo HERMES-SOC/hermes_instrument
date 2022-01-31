@@ -29,7 +29,6 @@
 		"python.linting.pycodestylePath": "/home/vscode/.local/bin/pycodestyle",
 		"python.linting.pydocstylePath": "/home/vscode/.local/bin/pydocstyle",
 		"python.linting.pylintPath": "/usr/bin/pylint",
-		"workbench.colorTheme": "Default Dark+",
 		"terminal.integrated.profiles.linux": {
 			"bash (login)": {
 				"path": "/bin/bash",
