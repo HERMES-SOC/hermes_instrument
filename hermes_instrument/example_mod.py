@@ -82,7 +82,9 @@ def main(args=None):
         action="store_true",
         help="Print all of the Prime numbers.",
     )
-    parser.add_argument("n", metavar="N", type=int, help="Get Prime numbers up to this number.")
+    parser.add_argument(
+        "n", metavar="N", type=int, help="Get Prime numbers up to this number."
+    )
 
     res = parser.parse_args(args)
 
