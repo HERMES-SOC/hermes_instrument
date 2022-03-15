@@ -8,6 +8,8 @@ This is the documentation for hermes_instrument.
 
    whatsnew/index
    cmad/index
+   user-guide/index
+   dev-guide/index
 
 
 Reference/API
