@@ -7,6 +7,7 @@ This is the documentation for hermes_instrument.
    :maxdepth: 2
 
    whatsnew/index
+   cmad/index
 
 
 Reference/API
