@@ -1,7 +1,7 @@
 include README.rst
 include CHANGES.rst
 include setup.cfg
-include licenses/LICENSE.rst
+include LICENSE.rst
 include pyproject.toml
 
 recursive-include hermes_instrument *.pyx *.c *.pxd

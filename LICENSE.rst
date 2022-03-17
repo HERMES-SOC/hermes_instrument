@@ -1,0 +1,1 @@
+See license/LICENSE.rst
