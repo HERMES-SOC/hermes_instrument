@@ -7,10 +7,9 @@ Customization and Global Configuration
 The :file:`configrc` file
 =========================
 
-This package uses a :file:`configrc` configuration file to customize
-certain properties. You can control a number of key features of such as
-where your data will download to. sunpy looks for this configuration file
-in a platform specific directory, which you can see the path for by running::
+This package uses a :file:`configrc` configuration file to customize certain properties.
+You can control a number of key features such as where your data will download to. 
+This configuration file in a platform specific directory, which you can see the path for by running::
 
   >>> import hermes_instrument
   >>> hermes_instrument.print_config()  # doctest: +SKIP
@@ -37,7 +36,7 @@ the package. Settings can be modified directly, for example::
 
 .. configrc-sample:
 
-A sample sunpyrc file
+A sample configrc file
 --------------------------------------------------------------------
 
 .. only:: html

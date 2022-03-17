@@ -26,3 +26,7 @@ level guiding requirements or that provide more detail or context. See example b
     * - `Heliophysics Division Science Data Management Policy <https://science.nasa.gov/science-pink/s3fs-public/atoms/files/HPD%20Data%20Policy_Final_20220209.pdf>`_
       - HPD-SDMP 
       - 14 Feb 2022
+    * - `HERMES Project Data Management Plan (PDMP) <https://github.com/HERMES-SOC/hermes-pdmp>`_
+      - HERMES-PDMP
+      - 7 Oct 2021
+

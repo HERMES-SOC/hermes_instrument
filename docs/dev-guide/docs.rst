@@ -86,3 +86,9 @@ To build the pdf documentation locally use the follownig command, in the root di
 
 This will generate HTML documentation in the "docs/_build/html" directory.
 You can open the "index.html" file to browse the final product.
+
+Troubleshooting
+---------------
+If you run into problems the following set of tips might help
+
+Delete all files that sphinx generated which are located in docs/_build/html and the docs/api folder.
