@@ -8,6 +8,7 @@ tox
 pytest # for testing
 pytest-astropy
 pytest-cov
+pre-commit
 sphinx # for documentation
 sphinx-automodapi # for documentation
 towncrier # for building changelog for documentation
