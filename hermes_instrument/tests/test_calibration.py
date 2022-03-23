@@ -9,7 +9,11 @@ def test_calibrate_file():
         str(excinfo.value)
         == "Calibration file for datafile_with_no_calib.cdf not found."
     )
+
+
+def test_get_calibration_file():
     assert get_calibration_file("") is None
+
 
 
 def test_read_calibration_file():
