@@ -43,10 +43,16 @@ This section (and any necessary subsections) provides details on the susbsystems
 responsible for directly obtaining the measurements or observations pertinent to the instrument. Details
 on the layout and design of the subsystem, examples of expected measurements, and interactions with
 any other subsystems should be provided.
-3.2.3 <Instrument name> Heritage
-3.2.3.1 Instrument Heritage
+
+<Instrument name> Heritage
+--------------------------
+
+Subsystem Heritage
+^^^^^^^^^^^^^^^^^^
 This section summarizes any heritage from past missions for the instrument and its subsystems or
 components (e.g., detectors, cameras, signal processing electronics).
-3.2.3.2 Algorithm and Calibration Heritage
+
+Algorithm and Calibration Heritage
+""""""""""""""""""""""""""""""""""
 This section identifies any heritage from past missions for the algorithms used to process/convert detector
 signals into the measurable quantities needed to meet the science requirements.
