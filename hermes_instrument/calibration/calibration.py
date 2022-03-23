@@ -1,6 +1,8 @@
 """
 A module for all things calibration.
 """
+import random
+from hermes_core import log
 
 __all__ = ["calibrate_file", "get_calibration_file", "read_calibration_file"]
 
@@ -31,7 +33,11 @@ def calibrate_file(data_filename, output_level=2):
     else:
         calib_data = read_calibration_file(calib_file)
 
-    return ""
+    # example log messages
+    log.info("Despiking removing {num_spikes} spikes".format(num_spikes=random.randint(0, 10)))
+    log.warning("Despiking could not remove {num_spikes}".format(num_spikes=random.randint(1, 5)))
+
+    return None
 
 
 def get_calibration_file(data_filename, time=None):
