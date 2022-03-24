@@ -42,7 +42,7 @@ extensions = [
 ]
 
 # Set automodapi to generate files inside the generated directory
-#automodapi_toctreedirnm = "_build/html/api"
+# automodapi_toctreedirnm = "_build/html/api"
 numpydoc_show_class_members = False
 # generate autosummary even if no references
 autosummary_generate = True
@@ -95,7 +95,7 @@ intersphinx_mapping = {
     ),
     "astropy": ("http://docs.astropy.org/en/stable/", None),
     "sunpy": ("https://docs.sunpy.org/en/stable/", None),
-    #    "hermes_core": ("https://readtehdocs.org/projects/hermes_core/en/stable/", None),
+    "hermes_core": ("https://hermes-core.readthedocs.io/en/latest/", None),
 }
 
 # -- Options for HTML output -------------------------------------------------

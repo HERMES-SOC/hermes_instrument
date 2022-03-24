@@ -8,7 +8,7 @@ The purpose of the page is to describe the standards that are expected of all th
 All developers should read and abide by the following standards.
 Code which does not follow these standards closely will generally not be accepted.
 
-The projects coding standards are documented in hermes-core.
+The projects coding standards are documented in `HERMES-core <https://hermes-core.readthedocs.io/en/latest/dev-guide/code_standards.html>`_.
 
 The following standards are specific to this repository.
 
