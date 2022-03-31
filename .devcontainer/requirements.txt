@@ -1,7 +1,7 @@
 numpy>=1.16.0
 astropy>=4.1.0
 sunpy
-git+https://github.com/ehsteve/hermes_core/
+git+https://github.com/HERMES-SOC/hermes_core/
 flake8 # for code style
 black # for code style
 tox
