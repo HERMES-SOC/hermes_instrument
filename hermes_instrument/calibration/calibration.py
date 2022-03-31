@@ -34,8 +34,16 @@ def calibrate_file(data_filename, output_level=2):
         calib_data = read_calibration_file(calib_file)
 
     # example log messages
-    log.info("Despiking removing {num_spikes} spikes".format(num_spikes=random.randint(0, 10)))
-    log.warning("Despiking could not remove {num_spikes}".format(num_spikes=random.randint(1, 5)))
+    log.info(
+        "Despiking removing {num_spikes} spikes".format(
+            num_spikes=random.randint(0, 10)
+        )
+    )
+    log.warning(
+        "Despiking could not remove {num_spikes}".format(
+            num_spikes=random.randint(1, 5)
+        )
+    )
 
     return None
 

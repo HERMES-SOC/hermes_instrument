@@ -15,6 +15,5 @@ def test_get_calibration_file():
     assert get_calibration_file("") is None
 
 
-
 def test_read_calibration_file():
     assert read_calibration_file("calib_file") is None
