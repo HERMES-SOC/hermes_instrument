@@ -30,6 +30,7 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
     "sphinx.ext.todo",
+    "sphinx.ext.autosummary",
     "sphinx.ext.coverage",
     "sphinx.ext.inheritance_diagram",
     "sphinx.ext.viewcode",
@@ -40,8 +41,15 @@ extensions = [
     "sphinx_automodapi.smart_resolver",
 ]
 
+# Set automodapi to generate files inside the generated directory
+# automodapi_toctreedirnm = "_build/html/api"
+numpydoc_show_class_members = False
+# generate autosummary even if no references
+autosummary_generate = True
+autosummary_imported_members = True
+
 # Add any paths that contain templates here, relative to this directory.
-# templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -87,13 +95,14 @@ intersphinx_mapping = {
     ),
     "astropy": ("http://docs.astropy.org/en/stable/", None),
     "sunpy": ("https://docs.sunpy.org/en/stable/", None),
+    "hermes_core": ("https://hermes-core.readthedocs.io/en/latest/", None),
 }
 
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = "nature"
+html_theme = "bizstyle"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

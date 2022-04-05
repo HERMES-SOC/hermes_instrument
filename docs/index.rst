@@ -6,10 +6,9 @@ This is the documentation for hermes_instrument.
 .. toctree::
    :maxdepth: 2
 
+   about
    whatsnew/index
-
-
-Reference/API
--------------
-
-.. automodapi:: hermes_instrument
+   cmad/index
+   user-guide/index
+   dev-guide/index
+   api

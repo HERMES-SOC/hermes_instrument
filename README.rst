@@ -8,7 +8,7 @@ Overview
     :stub-columns: 1
 
     * - docs
-      - |docs|
+      - |docs| |readtehdocs|
     * - build status
       - |testing| |codestyle|
 
@@ -23,6 +23,10 @@ Overview
 .. |codestyle| image:: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/codestyle.yml/badge.svg
     :target: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/codestyle.yml
     :alt: Codestyle and linting using flake8
+
+.. |readthedocs| .. image:: https://readthedocs.org/projects/nasa-hermes-instrument/badge/?version=latest
+    :target: https://nasa-hermes-instrument.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
 
 .. end-badges
 

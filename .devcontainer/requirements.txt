@@ -1,12 +1,15 @@
-astropy>=4.1.0
 numpy>=1.16.0
-flake8
-black
+astropy>=4.1.0
+sunpy
+git+https://github.com/HERMES-SOC/hermes_core/
+flake8 # for code style
+black # for code style
 tox
-pytest
+pytest # for testing
 pytest-astropy
 pytest-cov
-sphinx
-sphinx-automodapi
-towncrier
-ipython
+pre-commit
+sphinx # for documentation
+sphinx-automodapi # for documentation
+towncrier # for building changelog for documentation
+ipython # for easier debugging
