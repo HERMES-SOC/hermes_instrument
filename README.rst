@@ -8,7 +8,7 @@ Overview
     :stub-columns: 1
 
     * - docs
-      - |docs| |readtehdocs|
+      - |docs| |readthedocs|
     * - build status
       - |testing| |codestyle|
 
