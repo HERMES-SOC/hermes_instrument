@@ -24,7 +24,7 @@ Overview
     :target: https://github.com/HERMES-SOC/hermes_instrument/actions/workflows/codestyle.yml
     :alt: Codestyle and linting using flake8
 
-.. |readthedocs| .. image:: https://readthedocs.org/projects/nasa-hermes-instrument/badge/?version=latest
+.. |readthedocs| image:: https://readthedocs.org/projects/nasa-hermes-instrument/badge/?version=latest
     :target: https://nasa-hermes-instrument.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
