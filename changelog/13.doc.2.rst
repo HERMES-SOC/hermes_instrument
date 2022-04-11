@@ -1,1 +1,0 @@
-Updated docs to properly use sphinx-changelog and generated a changelog

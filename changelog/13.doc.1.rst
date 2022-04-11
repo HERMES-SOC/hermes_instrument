@@ -1,1 +1,1 @@
-Added `make` to the container to enable building docs with it. Updated dev docs to describe how to use it and how to clean.
+Updated docs to properly use sphinx-changelog and generated a changelog
