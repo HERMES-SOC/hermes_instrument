@@ -11,5 +11,6 @@ pytest-cov
 pre-commit
 sphinx # for documentation
 sphinx-automodapi # for documentation
+sphinx-changelog # for changelog in documentation
 towncrier # for building changelog for documentation
 ipython # for easier debugging
