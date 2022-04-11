@@ -29,4 +29,5 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install -e .[docs]
     - name: Build docs
-      run: docs/make html
+      working-directory: ./docs
+      run: make html
