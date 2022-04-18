@@ -7,16 +7,14 @@ Documentation Rules
 Overview
 ========
 
-All code must be documented and we follow these style conventions described here:
+All code must be documented and we follow the style conventions described here:
 
 * `numpydoc <https://numpydoc.readthedocs.io/en/latest/format.html#docstring-standard>`_
-
-We recommend familiarizing yourself with this style.
 
 Referring to other code
 -----------------------
 
-To link to other methods, classes, or modules in your repo you have to use backticks, for example:
+To link to methods, classes, or modules in your repo you have to use backticks, for example:
 
 .. code-block:: rst
 
@@ -24,7 +22,7 @@ To link to other methods, classes, or modules in your repo you have to use backt
 
 generates a link like this: `hermes_instrument.io.read_file`.
 
-Other packages can also be linked via
+Links can also be generated to external packages via
 `intersphinx <http://www.sphinx-doc.org/en/master/ext/intersphinx.html>`_:
 
 .. code-block:: rst
@@ -70,25 +68,18 @@ For more information on how to use Sphinx, consult the `Sphinx documentation <ht
 HTML
 ^^^^
 
-To build the html documentation locally use the follownig command, in the root directory run::
+To build the html documentation locally use the following command, in the docs directory run::
 
-    $ sphinx-build docs docs/_build/html -W -b html
-
-This will generate HTML documentation in the "docs/_build/html" directory.
-You can open the "index.html" file to browse the final product.
-
-PDF
-^^^
-
-To build the pdf documentation locally use the follownig command, in the root directory run::
-
-    $ sphinx-build docs docs/_build/pdf -W -b pdf
+    $ make html
 
 This will generate HTML documentation in the "docs/_build/html" directory.
 You can open the "index.html" file to browse the final product.
 
-Troubleshooting
----------------
-If you run into problems the following set of tips might help
+If you'd like to rebuild the documentation from scratch.
+This is normally not necessary since Sphinx will detect and only build the required changes.
+But if you are running into strange errors you may want to try this.
+The following command will wipe all generated files.
 
-Delete all files that sphinx generated which are located in docs/_build/html and the docs/api folder.
+    $ make clean
+
+Sphinx can also build documentation as a PDF but this requires latex to be installed.
