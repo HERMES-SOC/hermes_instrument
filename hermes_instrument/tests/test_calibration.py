@@ -38,7 +38,7 @@ def test_read_calibration_file():
 
 ## MAIN PROGRAM ##
 if __name__ == "__main__":
-    print("Starting unit test: new_cal.py")
+    print("Starting unit test: test_calibration.py")
     test_calibrate_file()
     test_get_calibration_file()
     test_read_calibration_file()
