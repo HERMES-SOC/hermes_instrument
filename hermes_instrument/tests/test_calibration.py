@@ -25,7 +25,11 @@ from hermes_instrument.calibration import calibration
 def test_calibrate_file():
     with pytest.raises(ValueError) as excinfo:
         calibration.calibrate_file("datafile_with_no_calib.cdf")
-    assert str(excinfo.value) == "Calibration file for datafile_with_no_calib.cdf not found."
+    assert (
+        str(excinfo.value)
+        == """Calibration file for
+    datafile_with_no_calib.cdf not found."""
+    )
 
 
 def test_get_calibration_file():
