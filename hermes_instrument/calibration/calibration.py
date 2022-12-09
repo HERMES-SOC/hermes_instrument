@@ -2,7 +2,7 @@
 A module for all things calibration.
 """
 import random
-from hermes_core import log
+from hermes_instrument import log
 
 __all__ = ["calibrate_file", "get_calibration_file", "read_calibration_file"]
 
@@ -27,13 +27,6 @@ def calibrate_file(data_filename, output_level=2):
     --------
     """
 
-    calib_file = get_calibration_file(data_filename)
-    if calib_file is None:
-        raise ValueError("Calibration file for {} not found.".format(data_filename))
-    else:
-        calib_data = read_calibration_file(calib_file)
-
-    # example log messages
     log.info(
         "Despiking removing {num_spikes} spikes".format(
             num_spikes=random.randint(0, 10)
@@ -44,6 +37,14 @@ def calibrate_file(data_filename, output_level=2):
             num_spikes=random.randint(1, 5)
         )
     )
+
+    calib_file = get_calibration_file(data_filename)
+    if calib_file is None:
+        raise ValueError("Calibration file for {} not found.".format(data_filename))
+    else:
+        calib_data = read_calibration_file(calib_file)
+
+    # example log messages
 
     return None
 

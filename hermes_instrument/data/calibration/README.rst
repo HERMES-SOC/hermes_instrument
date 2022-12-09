@@ -12,5 +12,5 @@ Filenames are structed as followed
 
 For example,
 
-  hermes_eea_calib_20220401_20220501
+  hermes_instrument_calib_20220401_20220501
 
