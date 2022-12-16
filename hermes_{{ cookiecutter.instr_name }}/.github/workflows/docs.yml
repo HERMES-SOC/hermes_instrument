@@ -1,3 +1,4 @@
+#{% raw %}
 # This workflow will install Python dependencies, run tests, run linting, and test building docs
 name: Building Docs
 
@@ -31,3 +32,4 @@ jobs:
     - name: Build docs
       working-directory: ./docs
       run: make html
+#{% endraw %}
