@@ -8,7 +8,7 @@ Naming Convention
 -----------------
 Filenames are structed as followed
 
-  hermes_<{{ cookiecutter.instr_name }}>_calib_<start time>_<end_time>
+  hermes_<instrument>_calib_<start time>_<end_time>
 
 For example,
 

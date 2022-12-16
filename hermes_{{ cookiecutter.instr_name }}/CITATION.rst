@@ -9,7 +9,7 @@ Citing in Publications
 
 Please add the following line within your methods, conclusion or acknowledgements sections:
 
-   *This research used version X.Y.Z (software citation) of the Hermes {{ cookiecutter.instr_name | capitalize }} open source
+   *This research used version X.Y.Z (software citation) of the Hermes Instrument open source
    software package (paper citation).*
 
 The software citation should be the specific Zenodo DOI for the version used in your work.
