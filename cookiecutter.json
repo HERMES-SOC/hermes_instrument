@@ -1,0 +1,4 @@
+{
+    "_copy_without_render": [".github/*"],
+    "instr_name": "instrument"
+}
