@@ -12,7 +12,7 @@ jobs:
   build:
     #{% raw %}
     runs-on: ${{ matrix.platform }}
-    #{% endraw %}
+
     strategy:
       fail-fast: false
       matrix:
@@ -21,14 +21,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      #{% raw %}
     - name: Set up Python ${{ matrix.python-version }}
-      #{% endraw %}
       uses: actions/setup-python@v2
       with:
-        #{% raw %}
         python-version: ${{ matrix.python-version }}
-        #{% endraw %}
+    #{% endraw %}
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
