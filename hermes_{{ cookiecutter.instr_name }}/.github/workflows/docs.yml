@@ -10,8 +10,9 @@ on:
       - main
 jobs:
   build:
-
-    runs-on: {% raw %}${{ matrix.platform }}{% endraw %}
+    #{% raw %}
+    runs-on: ${{ matrix.platform }}
+    #{% endraw %}
     strategy:
       fail-fast: false
       matrix:
@@ -20,10 +21,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python {% raw %}${{ matrix.python-version }}{% endraw %}
+      #{% raw %}
+    - name: Set up Python ${{ matrix.python-version }}
+      #{% endraw %}
+
       uses: actions/setup-python@v2
       with:
-        python-version: {% raw %}${{ matrix.python-version }}{% endraw %}
+        #{% raw %}
+        python-version: ${{ matrix.python-version }}
+        #{% endraw %}
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
