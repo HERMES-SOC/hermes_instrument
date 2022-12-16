@@ -6,7 +6,7 @@ from hermes_{{ cookiecutter.instr_name }} import log
 
 __all__ = ["calibrate_file", "get_calibration_file", "read_calibration_file"]
 
-
+print('test')
 def calibrate_file(data_filename, output_level=2):
     """
     Given an input file, calibrate it and return a new file.
