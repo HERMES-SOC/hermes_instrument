@@ -1,7 +1,7 @@
 .. _calibration_plan:
 
 **********************************
-<Instrument name> Calibration Plan
+{{ cookiecutter.full_instr_name }} Calibration Plan
 **********************************
 
 Overall Calibration Scheme

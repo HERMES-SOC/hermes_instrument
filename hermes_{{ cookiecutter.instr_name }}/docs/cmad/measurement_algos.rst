@@ -1,7 +1,7 @@
 .. _measurement_algos:
 
 ***************************************************
-<Instrument name> Measurement Algorithm Description
+{{ cookiecutter.full_instr_name }} Measurement Algorithm Description
 ***************************************************
 
 Theoretical basis

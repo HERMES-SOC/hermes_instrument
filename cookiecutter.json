@@ -1,3 +1,4 @@
 {
-    "instr_name": "instrument"
+    "instr_name": "instrument",
+    "full_instr_name": "the full name of the instrument"
 }
