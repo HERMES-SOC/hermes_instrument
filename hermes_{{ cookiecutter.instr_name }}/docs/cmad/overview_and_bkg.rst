@@ -12,7 +12,7 @@ Science Objectives
 
 This section describes the science objective(s) of the mission.
 
-{{ cookiecutter.full_instr_name }} Instrument Description
+<Instrument name> Instrument Description
 ========================================
 
 
@@ -44,7 +44,7 @@ responsible for directly obtaining the measurements or observations pertinent to
 on the layout and design of the subsystem, examples of expected measurements, and interactions with
 any other subsystems should be provided.
 
-{{ cookiecutter.full_instr_name }} Heritage
+<Instrument name> Heritage
 --------------------------
 
 Subsystem Heritage

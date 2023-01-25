@@ -4,7 +4,7 @@
 User's Guide
 ************
 
-Welcome to our User guide.
+Welcome to uor User guide.
 For more details checkout the :ref:`reference`.
 
 .. toctree::
