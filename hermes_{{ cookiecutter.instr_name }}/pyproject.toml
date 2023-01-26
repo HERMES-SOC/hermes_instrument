@@ -62,7 +62,7 @@ style = [
 ]
 
 [tool.setuptools.package-data]
-hermes_{{ cookiecutter.instr_name }} = ["data/*"]
+"hermes_{{ cookiecutter.instr_name }}.data" = ["**"]
 
 [tool.setuptools]
 packages = ["hermes_{{ cookiecutter.instr_name }}"]
