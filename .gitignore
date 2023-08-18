@@ -150,3 +150,4 @@ docs/api
 docs/whatsnew/latest_changelog.txt
 hermes_{{ cookiecutter.instr_name }}/version.py
 htmlcov/
+.DS_Store
