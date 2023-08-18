@@ -43,6 +43,9 @@ extensions = [
 ]
 
 # Set automodapi to generate files inside the generated directory
+automodapi_toctreedirnm = "generated/api"
+
+# Set automodapi to generate files inside the generated directory
 # automodapi_toctreedirnm = "_build/html/api"
 numpydoc_show_class_members = False
 # generate autosummary even if no references
