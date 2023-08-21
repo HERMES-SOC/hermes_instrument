@@ -147,5 +147,8 @@ docs/_build
 docs/generated
 docs/api
 docs/whatsnew/latest_changelog.txt
-hermes_{{ cookiecutter.instr_name }}/version.py
+hermes_{{ cookiecutter.instr_name }}/_version.py
 htmlcov/
+
+# Mac hidden files
+.DS_Store
