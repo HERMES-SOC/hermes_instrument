@@ -70,7 +70,8 @@ def load_data_file(data_filename : Path) -> HermesData:
 
 def calibrate_data(instrument_data: HermesData, output_level: int = 2) -> HermesData:
     """
-    Given an input file, calibrate it and return a new file.
+    Given a data conainer with uncalibrated data from an input file, calibrate the data 
+    and and return a data container of the calibrated data. 
 
     Parameters
     ----------
