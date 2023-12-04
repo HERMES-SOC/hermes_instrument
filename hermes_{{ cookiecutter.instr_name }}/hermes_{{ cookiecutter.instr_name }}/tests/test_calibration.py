@@ -101,10 +101,6 @@ def test_calibrate_data():
 def test_process_file_level0(level0_file):
     with pytest.raises(FileNotFoundError) as excinfo:
         _ = calib.process_file(level0_file)
-    assert (
-        str(excinfo.value)
-        == "[Errno 2] No such file or directory: '/workspaces/HERMES_SOC/hermes_instrument/hermes_instrument/data/instrument_sci_packet_def.csv'"
-    )
 
 
 def test_process_file_level1(level1_file):
