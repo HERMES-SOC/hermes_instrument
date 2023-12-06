@@ -44,7 +44,8 @@ def process_file(data_filename: Path) -> list:
     calibrated_data = calibrate_data(instrument_data)
 
     # Write the logical data format to a physical file format
-    calibrated_filename = write_data_file(calibrated_data)
+    output_path = data_filename.partent
+    calibrated_filename = write_data_file(calibrated_data, output_path=output_path)
 
     # Add the calibrated filename to the list of returned files to the processing pipeline
     output_files.append(calibrated_filename)
