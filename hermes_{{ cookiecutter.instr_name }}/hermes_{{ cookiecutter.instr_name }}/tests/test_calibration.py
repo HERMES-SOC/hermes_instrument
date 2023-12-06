@@ -83,7 +83,7 @@ def test_process_file_nofile_error():
     Test that if file does not exist it produces the correct error.
     The file needs to be in the correct format.
     """
-    with pytest.raises(FileNotFoundError):
+    with pytest.raises(RuntimeError):
         calib.process_file(Path("hermes_instrument_l0_2032339-000000_v0.bin"))
 
 
@@ -99,7 +99,7 @@ def test_calibrate_data():
 
 
 def test_process_file_level0(level0_file):
-    with pytest.raises(FileNotFoundError) as excinfo:
+    with pytest.raises(RuntimeError) as excinfo:
         _ = calib.process_file(level0_file)
 
 

@@ -75,10 +75,16 @@ def parse_l0_sci_packets(data_filename: Path) -> HermesData:
     """
     log.info(f"Parsing packets from file:{data_filename}.")
 
-    pkt = ccsdspy.FixedLength.from_file(
-        os.path.join(hermes_{{ cookiecutter.instr_name }}._data_directory, "sci_packet_def.csv")
-    )
-    data = pkt.load(data_filename)
+    try:
+        pkt = ccsdspy.FixedLength.from_file(
+            os.path.join(hermes_{{ cookiecutter.instr_name }}._data_directory, "sci_packet_def.csv")
+        )
+        data = pkt.load(data_filename)
+    except (RuntimeError, ValueError, KeyError):
+        log.critical(f"Failed to Parse Packets for file:{data_filename}.")
+        raise RuntimeError(
+            f"Failed to Parse Packets for file:{data_filename}. Please ensure Packet Definition: sci_packet_def.csv is correct."
+        )
     
     # Process the Packet dict to create a HermesData data container
     # NOTE: Template does no transormations here.
