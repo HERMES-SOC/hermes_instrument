@@ -60,7 +60,7 @@ def level1_file(tmp_path_factory):
 
 
 def test_load_data_file(level0_file):
-    with pytest.raises(FileNotFoundError) as excinfo:
+    with pytest.raises(RuntimeError) as excinfo:
         _ = load_data_file(level0_file)
 
 
