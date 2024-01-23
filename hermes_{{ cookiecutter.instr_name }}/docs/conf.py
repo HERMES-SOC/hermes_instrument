@@ -8,6 +8,10 @@
 import os
 import sys
 
+# -- Environmental Variables ------------------------------------------------
+# Set CDF Library Path
+os.environ["CDF_LIB"] = "../cdf/lib"
+
 sys.path.insert(0, os.path.abspath(".."))
 # -- Project information -----------------------------------------------------
 
